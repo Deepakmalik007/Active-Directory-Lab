@@ -2,4 +2,8 @@
 # This script resets a user's password in Active Directory.
 # Admin privileges required.
 
-Set-ADAccountPassword -Identity username -Reset -NewPassword (ConvertTo-SecureString "Temp@123" -AsPlainText -Force)
+$Username = Read-Host "Enter the username"
+
+Set-ADAccountPassword -Identity $Username -Reset -NewPassword (ConvertTo-SecureString "Temp@1234" -AsPlainText -Force)
+
+Write-Host "Password reset successfully for $Username"
