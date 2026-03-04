@@ -1,18 +1,23 @@
 # Active Directory Lab
 
-This repository documents my hands-on lab practice with Active Directory and Windows Server.
+This repository contains my hands-on lab work for learning **Windows Server, Active Directory administration, and PowerShell automation**.
 
 ## Lab Environment
-- Windows Server (Domain Controller)
+- Windows Server
 - Active Directory Domain Services
-- Domain-joined Windows client
+- PowerShell
+- Virtual Lab Environment
 
-## Tasks Practiced
-- Creating and managing users
-- Password reset and account unlock
-- Group membership management
-- Organizational Units (OU) structure
-- Basic Group Policy usage
+## PowerShell Scripts Included
+- Reset Active Directory User Password
+- Unlock Active Directory User Account
+- List Active Directory Users
 
-## Goal
-Build practical experience in Active Directory administration and common IT support tasks used in enterprise environments.
+## Purpose
+This lab demonstrates practical system administration tasks such as:
+- User management
+- Password reset automation
+- Account unlocking
+- Active Directory user listing
+
+These scripts simulate real IT support tasks performed in enterprise environments.
